@@ -1,10 +1,16 @@
-import React from 'react';
-// import resume from '../assets/Resume-Nathan-Potts';
+import React, { useState } from 'react';
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import resume from '../assets/resume/codingResume.pdf';
 
 function Resume() {
+
     return (
         <div>
-            <iframe src="../assets/Resume-Nathan-Potts" width='500' height='500'></iframe>
+            <Document
+                file={resume}
+            >
+                <Page pageNumber={1} />
+            </Document>
         </div>
     )
 }
