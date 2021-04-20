@@ -5,7 +5,7 @@ import Time from '../Time';
 function Nav() {
     return (
         <header>
-            {/* <Time /> clock needs to update dynamically but not repaint the whole page*/}
+            {/* <Time /> clock needs to update dynamically but not repaint the whole page */}
 
             <div>Nathan Potts</div>
             <nav>
