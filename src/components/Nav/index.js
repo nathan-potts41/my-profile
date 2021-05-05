@@ -1,28 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Time from '../Time';
 
 function Nav() {
     return (
         <header>
             {/* <Time /> clock needs to update dynamically but not repaint the whole page */}
-
-            <div>Nathan Potts</div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/about">About Me</Link>
-                    </li>
-                    <li>
-                        <Link to="/portfolio">Portfolio</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact Me</Link>
-                    </li>
-                    <li>
-                        <Link to="/resume">Resume</Link>
-                    </li>
-                </ul>
+            <nav className="nav-wrapper">
+                <a href="#" className="brand-logo">Nathan Potts</a>
             </nav>
             {/* needs to display the time
             needs to display my name 
