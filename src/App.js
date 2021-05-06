@@ -16,19 +16,19 @@ function App() {
     <Router>
       <div>
         <div className="row">
-          <div className="col m2 l2">
+          <Nav />
+          {/* <div className="col m2 l2"> */}
             <Sidenav />
-          </div>
-          <div className="col m10 l10">
-            <Nav />
+          {/* </div>
+          <div className="col m10 l10"> */}
             <Switch>
               <Route exact path='/about' component={About} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/portfolio' component={Portfolio} />
               <Route exact path='/resume' component={Resume} />
             </Switch>
-            <Footer />
-          </div>
+            {/* <Footer /> */}
+          {/* </div> */}
         </div>
       </div>
     </Router>
