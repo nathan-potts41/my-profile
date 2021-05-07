@@ -8,42 +8,72 @@ import DeepThoughtsImg from '../assets/images/DeepThoughtsScreenShot.png';
 
 function Portfolio() {
     return (
-        <div>
-            <div>
-                <a href="https://sheltered-garden-15985.herokuapp.com/">
-                    Book Search
-                    <img src={BookSearchImg}></img>
-                </a>
+        <div className="col s12 m10 l10 offset-m2 offset-l2 container-fluid">
+            <div className="row">
+                <div className="col s12 m7">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={WhateverWorksImg} className="responsive-img" alt="Screenshot of Whatever Works 2.0"></img>
+                            <span className="card-title"><a className="waves-effect waves-light btn-small yellow darken-3" href="https://whatever-works-2.herokuapp.com/">
+                                Whatever Works 2.0
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col s12 m5">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={BookSearchImg} className="responsive-img"></img>
+                            <span className="card-title"><a className="waves-effect waves-light btn-small yellow darken-3" href="https://sheltered-garden-15985.herokuapp.com/">
+                                Book Search
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="https://whatever-works-2.herokuapp.com/">
-                    Whatever Works 2.0
-                    <img src={WhateverWorksImg} alt="Screenshot of Whatever Works 2.0"></img>
-                </a>
+            <div className="row">
+                <div className="col s12 m6">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={RunBuddyImg} className="responsive-img" alt="Screenshot of Run Buddy"></img>
+                            <span className="card-title"><a className="waves-effect waves-light btn-small yellow darken-3" href="https://nathan-potts41.github.io/run-buddy/">
+                                Run Buddy
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col s12 m6">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={ProMeasureImg} className="responsive-img" alt="Screenshot of Promeasure"></img>
+                            <span className="card-title"><a className="waves-effect waves-light btn-small yellow darken-3" href="https://minnesotanyst.github.io/pm-beta/index.html">
+                                Pro Measure
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="https://nathan-potts41.github.io/run-buddy/">
-                    Run Buddy
-                    <img src={RunBuddyImg} alt="Screenshot of Run Buddy"></img>
-                </a>
-            </div>
-            <div>
-                <a href="https://minnesotanyst.github.io/pm-beta/index.html">
-                    Pro Measure
-                    <img src={ProMeasureImg} alt="Screenshot of Promeasure"></img>
-                </a>
-            </div>
-            <div>
-                <a href="https://thawing-sierra-78607.herokuapp.com/">
-                    Deep Thoughts
-                    <img src={DeepThoughtsImg}></img>
-                </a>
-            </div>
-            <div>
-                <a href="https://gertenhomes.herokuapp.com/">
-                    Gerten Homes Realty
-                    <img src={GertenHomesImg} alt="Screenshot of Gerten Homes Realty"></img>
-                </a>
+            <div className="row">
+                <div className="col s12 m6">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={DeepThoughtsImg} className="responsive-img" alt="Screenshot of Deep Thoughts"></img>
+                            <span className="card-title"><a className="waves-effect waves-light btn-small yellow darken-3" href="https://thawing-sierra-78607.herokuapp.com/">
+                                Deep Thoughts
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col s12 m6">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={GertenHomesImg} className="responsive-img" alt="Screenshot of Gerten Homes Realty"></img>
+                            <span className="card-title"><a className="waves-effect waves-light btn-small yellow darken-3" href="https://gertenhomes.herokuapp.com/">
+                                Gerten Homes Realty
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

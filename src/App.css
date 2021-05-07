@@ -1,8 +1,3 @@
-.std-btn {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .nav-tab {
   font-size: 2em;
   color: white;
@@ -13,6 +8,7 @@
 
 .side-navi {
   background-color: rgba(218, 211, 222, 1);
+  position: fixed;
   height: 100vh;
   padding: 0px;
 }
@@ -22,15 +18,19 @@
   font-weight: bold;
 }
 
+.subheader {
+  font-size: 1em;
+  font-weight: bold;
+}
+
 .primary-color {
   color: black;
 }
 
-.trim-color {
-  background-color: rgba(189, 121, 62, 1);
-
+.bgclr {
+  background-color: black;
 }
 
-.tertiary-color {
-
+.trim-color {
+  background-color: rgba(189, 121, 62, 1);
 }

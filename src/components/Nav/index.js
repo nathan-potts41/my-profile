@@ -4,15 +4,16 @@ import Time from '../Time';
 function Nav() {
     return (
         <header>
-            {/* <Time /> clock needs to update dynamically but not repaint the whole page */}
-            <nav className="nav-wrapper trim-color">
-                <a href="#" className="brand-logo center">Nathan Potts</a>
-            </nav>
-            {/* needs to display the time
+            <div className="navbar-fixed">
+                {/* <Time /> clock needs to update dynamically but not repaint the whole page */}
+                <nav className="nav-wrapper yellow darken-3">
+                    <a href="#" className="brand-logo center">Nathan Potts</a>
+                </nav>
+                {/* needs to display the time
             needs to display my name 
             needs to display navigation bar (about me, portfolio, contact, resume)
             what section on needs to be highlighted in NAV */}
-
+            </div>
         </header>
     )
 }
