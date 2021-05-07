@@ -16,3 +16,21 @@
   height: 100vh;
   padding: 0px;
 }
+
+.header {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.primary-color {
+  color: black;
+}
+
+.trim-color {
+  background-color: rgba(189, 121, 62, 1);
+
+}
+
+.tertiary-color {
+
+}

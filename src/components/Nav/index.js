@@ -5,7 +5,7 @@ function Nav() {
     return (
         <header>
             {/* <Time /> clock needs to update dynamically but not repaint the whole page */}
-            <nav className="nav-wrapper">
+            <nav className="nav-wrapper trim-color">
                 <a href="#" className="brand-logo center">Nathan Potts</a>
             </nav>
             {/* needs to display the time
