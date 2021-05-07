@@ -1,3 +1,7 @@
+.b-image {
+  background-image: url("./assets/images/RiverImg.HEIC");
+}
+
 .nav-tab {
   font-size: 2em;
   color: white;
