@@ -1,5 +1,6 @@
 .b-image {
-  background-image: url("./assets/images/RiverImg.HEIC");
+  background-image: url("./assets/images/RiverImg.png");
+  background-size: 100%, 100%;
 }
 
 .nav-tab {
