@@ -4,7 +4,7 @@ import Time from '../components/Time';
 
 const About = () => {
     return (
-        <div className="col s12 m10 l10 offset-m2 offset-l2 container-fluid b-image">
+        <div className="col s12 m10 l10 offset-m2 offset-l2 container-fluid">
             {/* <Time /> */}
             <br></br>
             <div className="row">

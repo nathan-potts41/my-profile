@@ -15,10 +15,9 @@ function App() {
   return (
     <Router>
       <div>
-        <div className="row">
           <Nav />
-          {/* <div className="col m2 l2"> */}
-            <Sidenav />
+          <Sidenav />
+          <div className="row">
           {/* </div>
           <div className="col m10 l10"> */}
             <Switch>

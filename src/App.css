@@ -1,6 +1,6 @@
 .b-image {
-  background-image: url("./assets/images/RiverImg.png");
-  background-size: 100%, 100%;
+  height: auto;
+  width: auto;
 }
 
 .nav-tab {
@@ -37,5 +37,5 @@
 }
 
 .trim-color {
-  background-color: rgba(189, 121, 62, 1);
+  background-color: rgb(122, 122, 122);
 }
