@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { render } from 'react-dom/cjs/react-dom.development';
+// import { render } from 'react-dom/cjs/react-dom.development';
 
 
 function Time() {

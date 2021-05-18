@@ -1,15 +1,19 @@
 import React from 'react';
 import HeadShot from '../assets/images/nathanHeadshotv2.jpg';
-import Time from '../components/Time';
+// import Time from '../components/Time';
 
 const About = () => {
     return (
-        <div className="col s12 m10 l10 offset-m2 offset-l2 container-fluid">
+        <div className="container">
             {/* <Time /> */}
             <br></br>
             <div className="row">
-
-                <div className="col s12 m6">
+                <div className="col s12 m12">
+                    <img className="responsive-img z-depth-1 circle" src={HeadShot} alt="Headshot of Nathan" />
+                </div>
+                <br></br>
+                <br></br>
+                <div className="col s12 m12">
                     <div className="row">
                         <div className="col m6 right-align header">
                             Name:
@@ -31,7 +35,7 @@ const About = () => {
                             Location:
                         </div>
                         <div className="col m6 header">
-                            Minneapolis MN
+                            Minneapolis, MN
                         </div>
                     </div>
                     <div className="row">
@@ -39,20 +43,16 @@ const About = () => {
                             Likes:
                         </div>
                         <div className="col m6 header">
-                            Rock Climbing Boating Flying Dancing Beer Bonfires
+                            Rock Climbing - Boating - Flying - Dancing - Beer - Bonfires
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m6">
-                    <img className="responsive-img z-depth-1 circle" src={HeadShot} alt="Headshot of Nathan" />
-                </div>
             </div>
-            <br></br>
             <div className="row">
-                <div className="col m2 right-align header">
+                <div className="col s12 m12 header">
                     Summary:
                 </div>
-                <div className="col m10">
+                <div className="col s12 m12">
                     5'11'', an avid climber, and a passion for warm weather, I am a go getter. I have played many sports (soccer, baseball, basketball) and enjoyed many mainstage productions (Phantom of the Opera, Singin in the Rain),
                     but I find real joy in working with a team. Being born in Fargo, North Dakota (Nodak for short) the midwest spirit of hard work and perseverance runs deep in my veins. Having frigid winters and hot summers, I enjoy
                     spending the good portion of that time at our family cabin. Some of my likes: Outdoor Adventure, making music, dancing, singing, beer, bonfires; dislikes: complaining, not getting enough sleep, products that are not built to last.

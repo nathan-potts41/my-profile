@@ -8,9 +8,9 @@ import DeepThoughtsImg from '../assets/images/DeepThoughtsScreenShot.png';
 
 function Portfolio() {
     return (
-        <div className="col s12 m10 l10 offset-m2 offset-l2 container-fluid">
+        <div className="container-fluid">
             <div className="row">
-                <div className="col s12 m7">
+                <div className="col s12 m12">
                     <div className="card">
                         <div className="card-image">
                             <img src={WhateverWorksImg} className="responsive-img" alt="Screenshot of Whatever Works 2.0"></img>
@@ -20,10 +20,10 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m5">
+                <div className="col s12 m12">
                     <div className="card">
                         <div className="card-image">
-                            <img src={BookSearchImg} className="responsive-img"></img>
+                            <img src={BookSearchImg} className="responsive-img" alt="Screenshot of Book Search"></img>
                             <span className="card-title"><a className="waves-effect waves-light btn-small yellow darken-3" href="https://sheltered-garden-15985.herokuapp.com/">
                                 Book Search
                             </a></span>
@@ -32,7 +32,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="row">
-                <div className="col s12 m6">
+                <div className="col s12 m12">
                     <div className="card">
                         <div className="card-image">
                             <img src={RunBuddyImg} className="responsive-img" alt="Screenshot of Run Buddy"></img>
@@ -42,7 +42,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m6">
+                <div className="col s12 m12">
                     <div className="card">
                         <div className="card-image">
                             <img src={ProMeasureImg} className="responsive-img" alt="Screenshot of Promeasure"></img>
@@ -54,7 +54,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="row">
-                <div className="col s12 m6">
+                <div className="col s12 m12">
                     <div className="card">
                         <div className="card-image">
                             <img src={DeepThoughtsImg} className="responsive-img" alt="Screenshot of Deep Thoughts"></img>
@@ -64,7 +64,7 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m6">
+                <div className="col s12 m12">
                     <div className="card">
                         <div className="card-image">
                             <img src={GertenHomesImg} className="responsive-img" alt="Screenshot of Gerten Homes Realty"></img>
