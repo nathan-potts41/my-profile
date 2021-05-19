@@ -6,16 +6,16 @@ function Contact() {
             <br></br>
             <br></br>
             <div className="row header flow-text">
-                Name: Nathan Potts
+                Name:  Nathan Potts
                 </div>
             <div className="row header flow-text">
-                Phone: 701.318.7255
+                Phone:  701.318.7255
                 </div>
             <div className="row header flow-text">
-                Email: nathan.potts41@gmail.com
+                Email:  nathan.potts41@gmail.com
                 </div>
             <div className="row header flow-text">
-                Github:https://github.com/nathan-potts41
+                Github:  https://github.com/nathan-potts41
                 </div>
             <div className="row header flow-text">
                 LinkedIn:
