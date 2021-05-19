@@ -23,7 +23,6 @@ function Resume() {
                         <Page pageNumber={1} 
                         renderAnnotationLayer={false}
                         renderMode="svg"
-                        className="circle"
                         />
                     </Document>
                 </div>
