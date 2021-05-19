@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my-profile/static/css/main.3c50e038.chunk.css",
+    "main.js": "/my-profile/static/js/main.91a67e10.chunk.js",
+    "main.js.map": "/my-profile/static/js/main.91a67e10.chunk.js.map",
+    "runtime-main.js": "/my-profile/static/js/runtime-main.66e5a144.js",
+    "runtime-main.js.map": "/my-profile/static/js/runtime-main.66e5a144.js.map",
+    "static/js/2.dd3c8aab.chunk.js": "/my-profile/static/js/2.dd3c8aab.chunk.js",
+    "static/js/2.dd3c8aab.chunk.js.map": "/my-profile/static/js/2.dd3c8aab.chunk.js.map",
+    "static/js/3.9cfb24a1.chunk.js": "/my-profile/static/js/3.9cfb24a1.chunk.js",
+    "static/js/3.9cfb24a1.chunk.js.map": "/my-profile/static/js/3.9cfb24a1.chunk.js.map",
+    "index.html": "/my-profile/index.html",
+    "static/css/main.3c50e038.chunk.css.map": "/my-profile/static/css/main.3c50e038.chunk.css.map",
+    "static/js/2.dd3c8aab.chunk.js.LICENSE.txt": "/my-profile/static/js/2.dd3c8aab.chunk.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.06dcc816.worker.js": "/my-profile/static/js/pdf.worker.entry.06dcc816.worker.js",
+    "static/js/pdf.worker.entry.06dcc816.worker.js.LICENSE.txt": "/my-profile/static/js/pdf.worker.entry.06dcc816.worker.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.06dcc816.worker.js.map": "/my-profile/static/js/pdf.worker.entry.06dcc816.worker.js.map",
+    "static/media/BookSearchScreenShot.5879921d.png": "/my-profile/static/media/BookSearchScreenShot.5879921d.png",
+    "static/media/DeepThoughtsScreenShot.31f167e3.png": "/my-profile/static/media/DeepThoughtsScreenShot.31f167e3.png",
+    "static/media/ResumeNathanPotts.38f77790.pdf": "/my-profile/static/media/ResumeNathanPotts.38f77790.pdf",
+    "static/media/RiverImg.e3aa3a38.png": "/my-profile/static/media/RiverImg.e3aa3a38.png",
+    "static/media/WhateverWorks2.0.054a6c49.png": "/my-profile/static/media/WhateverWorks2.0.054a6c49.png",
+    "static/media/gerten-homes-screenshot.e8ebe07a.png": "/my-profile/static/media/gerten-homes-screenshot.e8ebe07a.png",
+    "static/media/nathanHeadshotv2.b55b70c3.jpg": "/my-profile/static/media/nathanHeadshotv2.b55b70c3.jpg",
+    "static/media/promeasureScreenShot.32b9863f.png": "/my-profile/static/media/promeasureScreenShot.32b9863f.png",
+    "static/media/run-BuddyScreenShot.aef1eec7.png": "/my-profile/static/media/run-BuddyScreenShot.aef1eec7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66e5a144.js",
+    "static/js/2.dd3c8aab.chunk.js",
+    "static/css/main.3c50e038.chunk.css",
+    "static/js/main.91a67e10.chunk.js"
+  ]
+}
